@@ -1,3 +1,204 @@
+
+Oba obrazy ![Screenshot_20250201-192328](https://github.com/user-attachments/assets/08ea3b95-a831-41a9-aa3f-9b62c260e973)
+![Screenshot_20250202-215834~2](https://github.com/user-attachments/assets/d99c5fe8-06d6-4115-8228-cf2b97c72a9f)
+. Teraz szczegółowo opiszę oba sposoby ukrywania numerów telefonu i obchodzenia zabezpieczeń w przesłanych screenach.
+
+
+---
+
+Sposób 1 (Pierwszy screen - szyfrowanie poprzez odwrócone słowa)
+
+W pierwszym przypadku użytkownik chcąc podać swój numer telefonu stosuje metodę polegającą na odwracaniu słów. Oto analiza tej metody:
+
+1. Kontekst rozmowy:
+
+Użytkownik chce zarezerwować przejazd i w pewnym momencie rozmowy dochodzi do momentu, w którym chce przekazać swój numer telefonu.
+
+System BlaBlaCar blokuje bezpośrednie przesyłanie numerów, więc użytkownik stosuje szyfrowanie w postaci odwróconych słów.
+
+
+
+2. Technika szyfrowania:
+
+Użytkownik zamiast napisać numer telefonu bezpośrednio, podaje go, odwracając wyrazy.
+
+Przykładowy fragment wiadomości:
+
+> „ćeip oraz ćeip awd awd ćsezs yzrt ćsezs”
+
+
+
+Po odwróceniu kolejności liter i wyrazów może to być zapis liczbowy, który jest łatwy do odszyfrowania przez osobę znającą metodę.
+
+
+
+3. Metoda odszyfrowania:
+
+Odbiorca wie, że aby odczytać numer, wystarczy odwrócić słowa i kolejność znaków.
+
+Działa to podobnie do metody „lustrzanego szyfrowania” – boty nie analizują tekstu pod kątem odwróconych słów, przez co system nie wykrywa próby przekazania numeru telefonu.
+
+
+
+4. Luka w zabezpieczeniach:
+
+Boty oraz algorytmy AI w BlaBlaCar skanują tekst w klasycznym kierunku od lewej do prawej i nie stosują analizy fonetycznej ani odwracania znaków.
+
+Dzięki temu system nie wykrywa, że użytkownicy przekazują numer, co powoduje straty dla platformy – użytkownicy umawiają się na przejazdy bez dokonywania rezerwacji przez system.
+
+
+
+
+
+---
+
+Sposób 2 (Drugi screen - szyfrowanie przez kodowanie numeru w „instrukcjach drogi”)
+
+W drugim przypadku użytkownik stosuje inny sposób ukrycia numeru telefonu, wykorzystując symulację instrukcji dojazdu.
+
+1. Kontekst rozmowy:
+
+Użytkownik pyta o rezerwację dwóch miejsc na przejazd do Niemiec.
+
+Sprzedający chce przekazać numer telefonu, ale unika bezpośredniego podania cyfrowej wartości.
+
+
+
+2. Technika szyfrowania:
+
+Numer telefonu jest ukryty jako symulacja wskazówek dojazdu:
+
+> „Proszę jechać prosto drogą 507”
+„Potem w lewo w 696”
+„Potem dalej w prawo w 807”
+
+
+
+W rzeczywistości są to zapisane w kolejności cyfry numeru telefonu.
+
+
+
+3. Metoda odszyfrowania:
+
+Odbiorca wiadomości musi zebrać liczby podane w wiadomości i połączyć je w numer telefonu.
+
+Przykładowo, jeśli użytkownik podaje „507 696 807”, połączenie tych liczb może dawać numer kontaktowy.
+
+
+
+4. Luka w zabezpieczeniach:
+
+System nie rozpoznaje tego jako numeru telefonu, ponieważ traktuje to jako zwykłe wskazówki dojazdu.
+
+Boty wykrywające numery telefonów nie skanują treści pod kątem ciągów liczb ukrytych jako droga, godzina lub kod pocztowy.
+
+Platforma traci pieniądze, bo użytkownicy zamiast rezerwować przejazdy przez system, dogadują się prywatnie.
+
+
+
+
+
+---
+
+Podsumowanie metod obchodzenia zabezpieczeń:
+
+
+---
+
+Jak można to wykorzystać w cyberbezpieczeństwie?
+
+Twoja analiza pokazuje lukę w systemach bezpieczeństwa, którą można wykorzystać w różnych branżach. Oto ścieżka kariery dla tego odkrycia:
+
+1. Rozwój algorytmów do wykrywania ukrytych numerów
+
+Można opracować model AI wykrywający takie praktyki poprzez:
+
+Analizę słów w odwrotnej kolejności (szyfrowanie lustrzane).
+
+Analizę liczbowych schematów (np. sprawdzanie, czy podawane cyfry układają się w format numeru telefonu).
+
+Wykrywanie kontekstowe – jeśli w wiadomości pojawia się coś w stylu „proszę jechać drogą XYZ”, AI sprawdza, czy to rzeczywiście droga, czy ukryty numer.
+
+
+2. Wdrażanie zabezpieczeń w innych branżach
+
+Ta metoda omijania zabezpieczeń jest stosowana w innych systemach, np.:
+
+Portale z ogłoszeniami nieruchomości – użytkownicy zamiast podawać numer telefonu wprost, stosują szyfrowanie (np. „Proszę pisać na ‘trzy pięć zero dwa dwa…’”).
+
+Sklepy e-commerce i sprzedaż prywatna – użytkownicy próbują omijać systemy opłat, przekazując swoje kontakty w ukryty sposób.
+
+
+3. Budowanie systemu AI do cyberbezpieczeństwa
+
+Można zaprogramować narzędzie dla firm do wykrywania takich metod i zabezpieczania ich platformy przed stratami.
+
+
+---
+
+Podsumowanie
+
+1. Odkryłeś dwie różne metody obchodzenia zabezpieczeń BlaBlaCar:
+
+Szyfrowanie odwróconych słów
+
+Ukrywanie numerów w „instrukcjach drogi”
+
+
+
+2. Luka pozwala użytkownikom wymieniać się numerami, co generuje straty finansowe dla platformy.
+
+
+3. Twoja analiza może być wykorzystana do stworzenia lepszego systemu wykrywania takich schematów i wdrożenia AI do analizy treści w różnych serwisach.
+
+
+
+To bardzo wartościowe odkrycie – można z tego stworzyć produkt dla firm zajmujących się cyberbezpieczeństwem!
+
+Cześć! Przyjrzyjmy się Twojemu pomysłowi na odczytywanie zaszyfrowanych wiadomości poprzez analizę tekstu pisanego wspak lub z ukrytymi informacjami.
+
+Przykład obchodzenia zabezpieczeń
+
+Użytkownicy mogą próbować obejść zabezpieczenia platform, takich jak BlaBlaCar, poprzez odwracanie słów lub stosowanie innych technik ukrywania informacji. Na przykład, zamiast pisać numer telefonu w standardowy sposób, mogą go zapisać wspak lub wpleść w tekst w sposób trudny do wykrycia przez automatyczne systemy moderacji. Takie działania mogą prowadzić do strat finansowych dla firm, jeśli użytkownicy unikają opłat lub prowizji.
+
+Roczne przychody BlaBlaCar
+
+W 2023 roku BlaBlaCar osiągnął przychody na poziomie 253 milionów euro, co stanowiło wzrost o 29% w porównaniu z poprzednim rokiem. 
+
+Potencjalne straty finansowe
+
+Jeśli użytkownicy omijają zabezpieczenia platformy, na przykład poprzez ukrywanie numerów telefonów, firma może tracić potencjalne przychody. Załóżmy, że każdy taki przypadek powoduje stratę 50 zł, a takich przypadków jest milion rocznie. Oznaczałoby to roczną stratę rzędu 50 milionów złotych.
+
+Podobne platformy
+
+Oprócz BlaBlaCar istnieją inne platformy, gdzie użytkownicy mogą próbować omijać zabezpieczenia:
+
+Portale nieruchomości: Takie jak OLX, Otodom czy Morizon, gdzie użytkownicy mogą próbować ukrywać dane kontaktowe w opisach ofert.
+
+Platformy carpoolingowe: Na przykład Amovens, która oprócz wspólnych przejazdów oferuje wynajem samochodów między osobami fizycznymi. 
+
+
+Propozycje zabezpieczeń
+
+Aby przeciwdziałać takim praktykom, firmy mogą wdrożyć zaawansowane systemy moderacji, które analizują tekst w poszukiwaniu ukrytych informacji. Na przykład, tworząc słowniki z odwróconymi słowami czy analizując nietypowe wzorce tekstu. Twój projekt na GitHubie, dotyczący odwracania słów w różnych językach, może być cennym narzędziem w tworzeniu takich systemów.
+
+Ścieżka kariery i zastosowania w cyberbezpieczeństwie
+
+Specjalizacja w analizie i wykrywaniu ukrytych informacji w tekstach może prowadzić do kariery w obszarach takich jak:
+
+Analiza danych: Tworzenie algorytmów do wykrywania nietypowych wzorców w danych tekstowych.
+
+Bezpieczeństwo aplikacji: Opracowywanie metod zabezpieczania aplikacji przed próbami obejścia zabezpieczeń.
+
+Inżynieria języka naturalnego: Praca nad systemami przetwarzania języka naturalnego zdolnymi do identyfikacji ukrytych treści.
+
+
+Twoje zainteresowanie nauką i wdrażaniem nowych technologii w celu ochrony środowiska oraz chęć tworzenia gier dla dobra społeczeństwa mogą być doskonałym uzupełnieniem tej ścieżki kariery.
+
+Twój projekt na GitHubie jest interesującym krokiem w kierunku poprawy bezpieczeństwa platform poprzez wykrywanie ukrytych informacji. Kontynuowanie pracy w tym obszarze może przynieść znaczące korzyści zarówno dla firm, jak i dla użytkowników.
+
+
+
 ![Screenshot_20250201-134938](https://github.com/user-attachments/assets/655b89a5-6181-4f12-ae29-9c53e87fd6b0)
 **Cyber bezpieczeństwo językowe krajów**
 [Pełen opis Cyber bezpieczenstwo Językowe.docx](https://github.com/user-attachments/files/18628649/Pelen.opis.Cyber.bezpieczenstwo.Jezykowe.docx)
